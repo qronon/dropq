@@ -25,7 +25,6 @@ import com.google.appengine.api.urlfetch.HTTPResponse;
 import com.google.appengine.api.urlfetch.URLFetchService;
 import com.google.appengine.api.urlfetch.URLFetchServiceFactory;
 
-@SuppressWarnings("serial")
 public class DropqServletInstance {
 	private static MemcacheService mem = 
 			MemcacheServiceFactory.getMemcacheService("org.qrone.dropq");
